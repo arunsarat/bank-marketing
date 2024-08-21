@@ -115,15 +115,19 @@ As for the other three attributes, visual representation doesn't give a clear tr
 ## Model Performance with reduced features -  Conclusion
 We compare the compute complexity between full-feature data set training vs reduced feature data set.
 
-
-We reprent the performance values as data frame down below. Here are the conclusions based on measured metrics.
-- Kernel based classifier(SVC) consumes highest computational budget (100 times more)
+With the reduced feature set, Here are the conclusions based on measured metrics.
+- Kernel based classifier(SVC) consumes highest computational budget (50 times more)
 - Logistic Regression has the best training and validation accuracy, followed by SVC.
 - Logistic Regression has the best AUC value as well, followed by SVC.
 
-<img width="735" alt="image" src="https://github.com/user-attachments/assets/c81a3ee8-3f5e-4b80-ae81-94e6c37fd037">
-
 <img width="476" alt="image" src="https://github.com/user-attachments/assets/cc1c59cf-36b8-458f-a24f-20783bca473b">
+
+
+
+With the reduced feature set, compute budget improves two folds.
+
+
+<img width="735" alt="image" src="https://github.com/user-attachments/assets/c81a3ee8-3f5e-4b80-ae81-94e6c37fd037">
 
 
 
