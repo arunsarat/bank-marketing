@@ -31,7 +31,8 @@ This provides distribution of campaigns with respect to a specific consumer like
 <img width="711" alt="image" src="https://github.com/user-attachments/assets/c0fe5571-d00c-4950-b12f-bac945792330">
 
 ### Distribution of Target 
-This section identifies the distribution of consumers with respect to their final acceptance to subscribe for term deposit. We use this distribution as an input while selecting training and test data set because training and test data distribution should represent target value distribution
+This section identifies the distribution of consumers with respect to their final acceptance to subscribe for term deposit. We use this distribution as an input while selecting training and test data set because training and test data distribution should represent target value distribution.
+
 <img width="814" alt="image" src="https://github.com/user-attachments/assets/bdb9ebfc-0b4d-4d66-b40d-c56a85b507fa">
 
 ## Stage-2: Data Preparation
@@ -68,7 +69,8 @@ We reprent the performance values as data frame down below. Here are the conclus
 - Logistic Regression has the best training and validation accuracy, followed by SVC.
 - Logistic Regression has the best AUC value as well, followed by SVC.
 
-<img width="521" alt="image" src="https://github.com/user-attachments/assets/7869f5ca-1244-4c90-a0d7-f0a5ae2ccfe5">
+<img width="970" alt="image" src="https://github.com/user-attachments/assets/9fcc8a8d-16a3-4a49-9490-5abf4aff183d">
+
 
 ### Optimization
 This section talks about different observations on how some features impact the target. This in turn may answer questions about effectiveness of campaign with respect to campaign, consumer and macro economic factors.
